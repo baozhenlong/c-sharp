@@ -1,0 +1,434 @@
+<map version="freeplane 1.12.1">
+<!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
+<bookmarks>
+    <bookmark nodeId="ID_100776476" name="根节点" opensAsRoot="true"/>
+</bookmarks>
+<node TEXT="运算符优先级" FOLDED="false" ID="ID_100776476" CREATED="1601720331676" MODIFIED="1769940197368" LINK="../运算符.mm#ID_524109526" NodeVisibilityConfiguration="SHOW_HIDDEN_NODES" CHILD_NODES_LAYOUT="TOPTOBOTTOM_RIGHT_AUTO"><hook NAME="MapStyle" background="#ecf4f9ff" zoom="1.5">
+    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#00ddddff,#dddd00ff,#dd0000ff,#00dd00ff,#dd0000ff,#7cddddff,#dddd7cff,#dd7cddff,#7cdd7cff,#dd7c7cff,#7c7cddff" show_tags="UNDER_NODES" show_note_icons="false" associatedTemplateLocation="template:/模板.mm" fit_to_viewport="false" show_icons="BESIDE_NODES" showTagCategories="false"/>
+    <tags category_separator="::"/>
+
+<map_styles>
+<stylenode LOCALIZED_TEXT="styles.root_node" COLOR="#ffffff" BACKGROUND_COLOR="#ffffff" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
+<font NAME="Sarasa Gothic PDF SC Semibold" SIZE="24"/>
+<edge STYLE="horizontal" COLOR="#35455b"/>
+<stylenode LOCALIZED_TEXT="styles.predefined" POSITION="bottom_or_right" COLOR="#ffffff" BACKGROUND_COLOR="#ffffff" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="5 pt" SHAPE_VERTICAL_MARGIN="3 pt">
+<font NAME="Sarasa Gothic PDF SC Semibold"/>
+<edge STYLE="horizontal" COLOR="#35455b"/>
+<stylenode LOCALIZED_TEXT="default" ID="ID_748547038" ICON_SIZE="12 pt" FORMAT_AS_HYPERLINK="false" COLOR="#ffffff" BACKGROUND_COLOR="#ffffff" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="5 pt" SHAPE_VERTICAL_MARGIN="3 pt" NUMBERED="false" FORMAT="STANDARD_FORMAT" TEXT_ALIGN="DEFAULT" TEXT_WRITING_DIRECTION="LEFT_TO_RIGHT" MAX_WIDTH="10 cm" MIN_WIDTH="0 cm" VGAP_QUANTITY="2 pt" COMMON_HGAP_QUANTITY="14 pt" BORDER_WIDTH_LIKE_EDGE="false" BORDER_WIDTH="1 px" BORDER_COLOR_LIKE_EDGE="true" BORDER_COLOR="#808080" BORDER_DASH_LIKE_EDGE="false" BORDER_DASH="SOLID" CHILD_NODES_LAYOUT="AUTO">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_748547038" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<font NAME="Sarasa Gothic PDF SC Semibold" SIZE="10" BOLD="false" UNDERLINED="false" STRIKETHROUGH="false" ITALIC="false"/>
+<edge STYLE="horizontal" COLOR="#35455b" WIDTH="1" DASH="SOLID"/>
+<richcontent TYPE="DETAILS" CONTENT-TYPE="plain/html"/>
+<richcontent TYPE="NOTE" CONTENT-TYPE="plain/html"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="defaultstyle.details" COLOR="#ffffff" BACKGROUND_COLOR="#ffffff" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="5 pt" SHAPE_VERTICAL_MARGIN="3 pt">
+<font NAME="Sarasa Gothic PDF SC Semibold"/>
+<edge STYLE="horizontal" COLOR="#35455b"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="defaultstyle.tags">
+<font SIZE="10"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="defaultstyle.attributes" COLOR="#ffffff" BACKGROUND_COLOR="#ffffff" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="5 pt" SHAPE_VERTICAL_MARGIN="3 pt">
+<font NAME="Sarasa Gothic PDF SC Semibold" SIZE="9"/>
+<edge STYLE="horizontal" COLOR="#35455b"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="defaultstyle.note" COLOR="#ffffff" BACKGROUND_COLOR="#ffffff" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="5 pt" SHAPE_VERTICAL_MARGIN="3 pt" TEXT_ALIGN="LEFT">
+<font NAME="Sarasa Gothic PDF SC Semibold"/>
+<edge STYLE="horizontal" COLOR="#35455b"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="defaultstyle.floating" COLOR="#ffffff" BACKGROUND_COLOR="#ffffff" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="5 pt" SHAPE_VERTICAL_MARGIN="3 pt">
+<font NAME="Sarasa Gothic PDF SC Semibold"/>
+<edge STYLE="horizontal" COLOR="#35455b"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="defaultstyle.selection" BACKGROUND_COLOR="#4e85f8" BORDER_WIDTH="0 px" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#4e85f8" BORDER_COLOR_ALPHA="0">
+<font NAME="Sarasa Gothic PDF SC Semibold"/>
+</stylenode>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="bottom_or_right" COLOR="#ffffff" BACKGROUND_COLOR="#ffffff" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="5 pt" SHAPE_VERTICAL_MARGIN="3 pt">
+<font NAME="Sarasa Gothic PDF SC Semibold"/>
+<edge STYLE="horizontal" COLOR="#35455b"/>
+<stylenode LOCALIZED_TEXT="styles.topic" COLOR="#ffffff" BACKGROUND_COLOR="#ffffff" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="5 pt" SHAPE_VERTICAL_MARGIN="3 pt">
+<font NAME="Sarasa Gothic PDF SC Semibold" SIZE="10" BOLD="true"/>
+<edge STYLE="horizontal" COLOR="#35455b"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.subtopic" COLOR="#ffffff" BACKGROUND_COLOR="#ffffff" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="5 pt" SHAPE_VERTICAL_MARGIN="3 pt">
+<font NAME="Sarasa Gothic PDF SC Semibold" SIZE="10" BOLD="true"/>
+<edge STYLE="horizontal" COLOR="#35455b"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.subsubtopic" COLOR="#ffffff" BACKGROUND_COLOR="#ffffff" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="5 pt" SHAPE_VERTICAL_MARGIN="3 pt">
+<font NAME="Sarasa Gothic PDF SC Semibold" SIZE="10" BOLD="true"/>
+<edge STYLE="horizontal" COLOR="#35455b"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.important" COLOR="#ffffff" BACKGROUND_COLOR="#ffffff" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="5 pt" SHAPE_VERTICAL_MARGIN="3 pt">
+<icon BUILTIN="yes"/>
+<font NAME="Sarasa Gothic PDF SC Semibold"/>
+<edge STYLE="horizontal" COLOR="#35455b"/>
+</stylenode>
+<stylenode TEXT="代码" COLOR="#333333" BACKGROUND_COLOR="#f0f8ff" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#d1d5d8">
+<font NAME="Consolas"/>
+</stylenode>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="bottom_or_right" COLOR="#ffffff" BACKGROUND_COLOR="#ffffff" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="5 pt" SHAPE_VERTICAL_MARGIN="3 pt">
+<font NAME="Sarasa Gothic PDF SC Semibold"/>
+<edge STYLE="horizontal" COLOR="#35455b"/>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#ffffff" BACKGROUND_COLOR="#35455b" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="5 pt" SHAPE_VERTICAL_MARGIN="3 pt" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#808080" BORDER_COLOR_ALPHA="0">
+<font NAME="Sarasa Gothic PDF SC Semibold" SIZE="18"/>
+<edge STYLE="horizontal" COLOR="#35455b" WIDTH="3" DASH="SOLID"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,1" COLOR="#ffffff" BACKGROUND_COLOR="#84a1c9" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="5 pt" SHAPE_VERTICAL_MARGIN="3 pt" FORMAT="#" BORDER_WIDTH="1 px" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#05a8f4" BORDER_COLOR_ALPHA="0">
+<font NAME="Sarasa Gothic PDF SC Semibold" SIZE="10"/>
+<edge STYLE="horizontal" COLOR="#35455b" WIDTH="2" DASH="SOLID"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,2" COLOR="#000000" BACKGROUND_COLOR="#e6e6e6" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="5 pt" SHAPE_VERTICAL_MARGIN="3 pt" BORDER_WIDTH="1 px" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#808080" BORDER_COLOR_ALPHA="0">
+<font NAME="Sarasa Gothic PDF SC Semibold" SIZE="10"/>
+<edge STYLE="horizontal" COLOR="#35455b" WIDTH="1" DASH="SOLID"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,3" COLOR="#000000" BACKGROUND_COLOR="#e6e6e6" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="5 pt" SHAPE_VERTICAL_MARGIN="3 pt" BORDER_WIDTH="1 px" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#808080" BORDER_COLOR_ALPHA="0">
+<font NAME="Sarasa Gothic PDF SC Semibold" SIZE="10"/>
+<edge STYLE="horizontal" COLOR="#35455b" WIDTH="1" DASH="SOLID"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,4" COLOR="#000000" BACKGROUND_COLOR="#e6e6e6" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="5 pt" SHAPE_VERTICAL_MARGIN="3 pt" BORDER_WIDTH="1 px" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#808080" BORDER_COLOR_ALPHA="0">
+<font NAME="Sarasa Gothic PDF SC Semibold" SIZE="10"/>
+<edge STYLE="horizontal" COLOR="#35455b" WIDTH="1" DASH="SOLID"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,5" COLOR="#000000" BACKGROUND_COLOR="#e6e6e6" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="5 pt" SHAPE_VERTICAL_MARGIN="3 pt" BORDER_WIDTH="1 px" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#808080" BORDER_COLOR_ALPHA="0">
+<font NAME="Sarasa Gothic PDF SC Semibold" SIZE="10"/>
+<edge STYLE="horizontal" COLOR="#35455b" WIDTH="1" DASH="SOLID"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,6" COLOR="#000000" BACKGROUND_COLOR="#e6e6e6" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="5 pt" SHAPE_VERTICAL_MARGIN="3 pt" BORDER_WIDTH="1 px" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#808080" BORDER_COLOR_ALPHA="0">
+<font NAME="Sarasa Gothic PDF SC Semibold" SIZE="10"/>
+<edge STYLE="horizontal" COLOR="#35455b" WIDTH="1" DASH="SOLID"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,7" COLOR="#000000" BACKGROUND_COLOR="#e6e6e6" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="5 pt" SHAPE_VERTICAL_MARGIN="3 pt" BORDER_WIDTH="1 px" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#808080" BORDER_COLOR_ALPHA="0">
+<font NAME="Sarasa Gothic PDF SC Semibold" SIZE="10"/>
+<edge STYLE="horizontal" COLOR="#35455b" WIDTH="1" DASH="SOLID"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,8" COLOR="#000000" BACKGROUND_COLOR="#e6e6e6" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="5 pt" SHAPE_VERTICAL_MARGIN="3 pt" BORDER_WIDTH="1 px" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#808080" BORDER_COLOR_ALPHA="0">
+<font NAME="Sarasa Gothic PDF SC Semibold" SIZE="10"/>
+<edge STYLE="horizontal" COLOR="#35455b" WIDTH="1" DASH="SOLID"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,9" COLOR="#000000" BACKGROUND_COLOR="#e6e6e6" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="5 pt" SHAPE_VERTICAL_MARGIN="3 pt" BORDER_WIDTH="1 px" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#808080" BORDER_COLOR_ALPHA="0">
+<font NAME="Sarasa Gothic PDF SC Semibold" SIZE="10"/>
+<edge STYLE="horizontal" COLOR="#35455b" WIDTH="1" DASH="SOLID"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,10" COLOR="#000000" BACKGROUND_COLOR="#e6e6e6" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="5 pt" SHAPE_VERTICAL_MARGIN="3 pt" BORDER_WIDTH="1 px" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#808080" BORDER_COLOR_ALPHA="0">
+<font NAME="Sarasa Gothic PDF SC Semibold" SIZE="10"/>
+<edge STYLE="horizontal" COLOR="#35455b" WIDTH="1" DASH="SOLID"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,11" COLOR="#000000" BACKGROUND_COLOR="#e6e6e6" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="5 pt" SHAPE_VERTICAL_MARGIN="3 pt" BORDER_WIDTH="1 px" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#808080" BORDER_COLOR_ALPHA="0">
+<font NAME="Sarasa Gothic PDF SC Semibold" SIZE="10"/>
+<edge STYLE="horizontal" COLOR="#35455b" WIDTH="1" DASH="SOLID"/>
+</stylenode>
+</stylenode>
+</stylenode>
+</map_styles>
+</hook>
+<hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
+<node TEXT="后缀" POSITION="bottom_or_right" ID="ID_143062762" CREATED="1769940222821" MODIFIED="1769940227379">
+<node TEXT="运算符" ID="ID_2538744" CREATED="1769940228091" MODIFIED="1769940230527">
+<node TEXT="()" ID="ID_961216976" CREATED="1769940243166" MODIFIED="1769940245479"/>
+<node TEXT="[]" ID="ID_1359698717" CREATED="1769940246649" MODIFIED="1769940247677"/>
+<node TEXT="-&gt;" ID="ID_328059042" CREATED="1769940248866" MODIFIED="1769940250452"/>
+<node TEXT="." ID="ID_1619805543" CREATED="1769940251345" MODIFIED="1769940252316"/>
+<node TEXT="++" ID="ID_112363007" CREATED="1769940252733" MODIFIED="1769940253996"/>
+<node TEXT="--" ID="ID_770654821" CREATED="1769940254145" MODIFIED="1769940256575"/>
+</node>
+<node TEXT="结合性" ID="ID_1390130242" CREATED="1769940230681" MODIFIED="1769940235726">
+<node TEXT="从左到右" ID="ID_1388127820" CREATED="1769940235991" MODIFIED="1769940241422"/>
+</node>
+</node>
+<node TEXT="一元" POSITION="bottom_or_right" ID="ID_1453289458" CREATED="1769940271798" MODIFIED="1769940278082">
+<node ID="ID_1542726815" CREATED="1769940280992" MODIFIED="1769940280992"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      运算符
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="+" ID="ID_1525231713" CREATED="1769940292080" MODIFIED="1769940293543"/>
+<node TEXT="-" ID="ID_1225094788" CREATED="1769940294320" MODIFIED="1769940298714"/>
+<node TEXT="!" ID="ID_248698844" CREATED="1769940300297" MODIFIED="1769940304092"/>
+<node TEXT="++" ID="ID_1880065534" CREATED="1769940323969" MODIFIED="1769940324814"/>
+<node TEXT="--" ID="ID_1252020255" CREATED="1769940325382" MODIFIED="1769940326295"/>
+<node TEXT="(type)*" ID="ID_357990467" CREATED="1769940327346" MODIFIED="1769940335779"/>
+<node TEXT="&amp;" ID="ID_1523240440" CREATED="1769940338020" MODIFIED="1769940339382"/>
+<node TEXT="sizeof" ID="ID_1314351697" CREATED="1769940339772" MODIFIED="1769940341374"/>
+</node>
+<node TEXT="结合性" ID="ID_53482862" CREATED="1769940230681" MODIFIED="1769940235726">
+<node TEXT="从右到左" ID="ID_40304690" CREATED="1769940235991" MODIFIED="1769940350843"/>
+</node>
+</node>
+<node TEXT="乘除" POSITION="top_or_left" ID="ID_1390758591" CREATED="1769940271798" MODIFIED="1769940358234">
+<node ID="ID_878547516" CREATED="1769940280992" MODIFIED="1769940280992"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      运算符
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="*" ID="ID_1596962176" CREATED="1769940360484" MODIFIED="1769940362913"/>
+<node TEXT="/" ID="ID_1371142699" CREATED="1769940363423" MODIFIED="1769940364003"/>
+<node TEXT="%" ID="ID_1891257565" CREATED="1769940364443" MODIFIED="1769940365294"/>
+</node>
+<node TEXT="结合性" ID="ID_1611819950" CREATED="1769940230681" MODIFIED="1769940235726">
+<node TEXT="从左到右" ID="ID_284620813" CREATED="1769940235991" MODIFIED="1769940241422"/>
+</node>
+</node>
+<node TEXT="加减" POSITION="top_or_left" ID="ID_852080152" CREATED="1769940271798" MODIFIED="1769940379128">
+<node ID="ID_1810910827" CREATED="1769940280992" MODIFIED="1769940280992"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      运算符
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="+" ID="ID_566057695" CREATED="1769940380144" MODIFIED="1769940381097"/>
+<node TEXT="-" ID="ID_1653605736" CREATED="1769940381275" MODIFIED="1769940382385"/>
+</node>
+<node TEXT="结合性" ID="ID_1204735087" CREATED="1769940230681" MODIFIED="1769940235726">
+<node TEXT="从左到右" ID="ID_895735693" CREATED="1769940235991" MODIFIED="1769940241422"/>
+</node>
+</node>
+<node TEXT="移位" POSITION="top_or_left" ID="ID_1335010803" CREATED="1769940271798" MODIFIED="1769940390273">
+<node ID="ID_1069459272" CREATED="1769940280992" MODIFIED="1769940280992"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      运算符
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="&lt;&lt;" ID="ID_1599803580" CREATED="1769940392835" MODIFIED="1769940394615"/>
+<node TEXT="&gt;&gt;" ID="ID_1184605598" CREATED="1769940395094" MODIFIED="1769940396560"/>
+</node>
+<node TEXT="结合性" ID="ID_1595126610" CREATED="1769940230681" MODIFIED="1769940235726">
+<node TEXT="从左到右" ID="ID_207086857" CREATED="1769940235991" MODIFIED="1769940241422"/>
+</node>
+</node>
+<node TEXT="关系" POSITION="top_or_left" ID="ID_6312907" CREATED="1769940271798" MODIFIED="1769940402616">
+<node ID="ID_1976675065" CREATED="1769940280992" MODIFIED="1769940280992"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      运算符
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="&lt;" ID="ID_1401835464" CREATED="1769940403846" MODIFIED="1769940406338"/>
+<node TEXT="&lt;=" ID="ID_1799031823" CREATED="1769940406665" MODIFIED="1769940407779"/>
+<node TEXT="&gt;" ID="ID_1672840181" CREATED="1769940408285" MODIFIED="1769940409406"/>
+<node TEXT="&gt;=" ID="ID_1644657163" CREATED="1769940409780" MODIFIED="1769940410913"/>
+</node>
+<node TEXT="结合性" ID="ID_1101663549" CREATED="1769940230681" MODIFIED="1769940235726">
+<node TEXT="从左到右" ID="ID_162898892" CREATED="1769940235991" MODIFIED="1769940241422"/>
+</node>
+</node>
+<node TEXT="相等" POSITION="top_or_left" ID="ID_794192615" CREATED="1769940271798" MODIFIED="1769940419669">
+<node ID="ID_1805751449" CREATED="1769940280992" MODIFIED="1769940280992"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      运算符
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="==" ID="ID_624753781" CREATED="1769940431561" MODIFIED="1769940434253"/>
+<node TEXT="!=" ID="ID_879577676" CREATED="1769940435865" MODIFIED="1769940442926"/>
+</node>
+<node TEXT="结合性" ID="ID_345381654" CREATED="1769940230681" MODIFIED="1769940235726">
+<node TEXT="从左到右" ID="ID_1567680183" CREATED="1769940235991" MODIFIED="1769940241422"/>
+</node>
+</node>
+<node TEXT="按位与" POSITION="top_or_left" ID="ID_1566038520" CREATED="1769940271798" MODIFIED="1769940457546">
+<node ID="ID_601671287" CREATED="1769940280992" MODIFIED="1769940280992"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      运算符
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="&amp;" ID="ID_310544823" CREATED="1769940490798" MODIFIED="1769940492595"/>
+</node>
+<node TEXT="结合性" ID="ID_1798501704" CREATED="1769940230681" MODIFIED="1769940235726">
+<node TEXT="从左到右" ID="ID_1634044580" CREATED="1769940235991" MODIFIED="1769940241422"/>
+</node>
+</node>
+<node TEXT="按位异或" POSITION="top_or_left" ID="ID_1779894289" CREATED="1769940271798" MODIFIED="1769940488806">
+<node ID="ID_650259936" CREATED="1769940280992" MODIFIED="1769940280992"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      运算符
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="^" ID="ID_1054746743" CREATED="1769940494696" MODIFIED="1769940496667"/>
+</node>
+<node TEXT="结合性" ID="ID_862637439" CREATED="1769940230681" MODIFIED="1769940235726">
+<node TEXT="从左到右" ID="ID_359969020" CREATED="1769940235991" MODIFIED="1769940241422"/>
+</node>
+</node>
+<node TEXT="按位或" POSITION="top_or_left" ID="ID_221237328" CREATED="1769940271798" MODIFIED="1769940480894">
+<node ID="ID_1366084480" CREATED="1769940280992" MODIFIED="1769940280992"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      运算符
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="|" ID="ID_836758915" CREATED="1769940498773" MODIFIED="1769940499783"/>
+</node>
+<node TEXT="结合性" ID="ID_399006221" CREATED="1769940230681" MODIFIED="1769940235726">
+<node TEXT="从左到右" ID="ID_207219307" CREATED="1769940235991" MODIFIED="1769940241422"/>
+</node>
+</node>
+<node TEXT="逻辑与" POSITION="top_or_left" ID="ID_1433924951" CREATED="1769940271798" MODIFIED="1769940514607">
+<node ID="ID_1081183552" CREATED="1769940280992" MODIFIED="1769940280992"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      运算符
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="&amp;&amp;" ID="ID_1007711529" CREATED="1769940521255" MODIFIED="1769940523912"/>
+</node>
+<node TEXT="结合性" ID="ID_1078658422" CREATED="1769940230681" MODIFIED="1769940235726">
+<node TEXT="从左到右" ID="ID_355176684" CREATED="1769940235991" MODIFIED="1769940241422"/>
+</node>
+</node>
+<node TEXT="逻辑或" POSITION="top_or_left" ID="ID_1013529817" CREATED="1769940271798" MODIFIED="1769940534817">
+<node ID="ID_87493663" CREATED="1769940280992" MODIFIED="1769940280992"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      运算符
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="||" ID="ID_246676380" CREATED="1769940537502" MODIFIED="1769940538538"/>
+</node>
+<node TEXT="结合性" ID="ID_1972304325" CREATED="1769940230681" MODIFIED="1769940235726">
+<node TEXT="从左到右" ID="ID_336734170" CREATED="1769940235991" MODIFIED="1769940241422"/>
+</node>
+</node>
+<node TEXT="条件" POSITION="top_or_left" ID="ID_95432887" CREATED="1769940271798" MODIFIED="1769940544493">
+<node ID="ID_326567332" CREATED="1769940280992" MODIFIED="1769940280992"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      运算符
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="? :" ID="ID_655070804" CREATED="1769940545654" MODIFIED="1769940548988"/>
+</node>
+<node TEXT="结合性" ID="ID_1817832371" CREATED="1769940230681" MODIFIED="1769940235726">
+<node TEXT="从右到左" ID="ID_1005833920" CREATED="1769940235991" MODIFIED="1769940559066"/>
+</node>
+</node>
+<node TEXT="赋值" POSITION="top_or_left" ID="ID_439364071" CREATED="1769940271798" MODIFIED="1769940564706">
+<node TEXT="运算符" ID="ID_990327950" CREATED="1769940280992" MODIFIED="1769940588562">
+<node TEXT="=" ID="ID_797618184" CREATED="1769940586152" MODIFIED="1769940590876"/>
+<node TEXT="+=" ID="ID_644738262" CREATED="1769940591430" MODIFIED="1769940592943"/>
+<node TEXT="-=" ID="ID_216243459" CREATED="1769940593609" MODIFIED="1769940595511"/>
+<node TEXT="*=" ID="ID_1719346520" CREATED="1769940595817" MODIFIED="1769940599401"/>
+<node TEXT="/=" ID="ID_675380813" CREATED="1769940599754" MODIFIED="1769940602039"/>
+<node TEXT="%=" ID="ID_1535914606" CREATED="1769940604191" MODIFIED="1769940605697"/>
+<node TEXT="&lt;&lt;=" ID="ID_1747030097" CREATED="1769940606583" MODIFIED="1769940610534"/>
+<node TEXT="&gt;&gt;=" ID="ID_213879983" CREATED="1769940611037" MODIFIED="1769940612627"/>
+<node TEXT="&amp;=" ID="ID_1615963211" CREATED="1769940613082" MODIFIED="1769940614756"/>
+<node TEXT="^=" ID="ID_1087212916" CREATED="1769940615919" MODIFIED="1769940619439"/>
+<node TEXT="|=" ID="ID_519861216" CREATED="1769940619781" MODIFIED="1769940621191"/>
+</node>
+<node TEXT="结合性" ID="ID_885538073" CREATED="1769940230681" MODIFIED="1769940235726">
+<node TEXT="从右到左" ID="ID_1200023935" CREATED="1769940235991" MODIFIED="1769940559066"/>
+</node>
+</node>
+<node TEXT="逗号" POSITION="top_or_left" ID="ID_817766037" CREATED="1769940271798" MODIFIED="1769940574934">
+<node ID="ID_1673122257" CREATED="1769940280992" MODIFIED="1769940280992"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      运算符
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="," ID="ID_619014144" CREATED="1769940576048" MODIFIED="1769940577363"/>
+</node>
+<node TEXT="结合性" ID="ID_860146876" CREATED="1769940230681" MODIFIED="1769940235726">
+<node TEXT="从左到右" ID="ID_720908533" CREATED="1769940235991" MODIFIED="1769940241422"/>
+</node>
+</node>
+</node>
+</map>
